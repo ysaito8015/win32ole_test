@@ -10,5 +10,4 @@ end
 q = ie.document.all.Item('q')
 q.Value = 'Ruby'
 btnG = ie.document.all.Item('btnG')
-binding.pry
 btnG.click()
